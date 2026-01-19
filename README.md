@@ -43,12 +43,12 @@ Cronjob’larda görevlerin ne zaman çalışacağını belirtmek için
 aşağıdaki zamanlama formatı kullanılır:
 
 # * * * * * çalıştırılacak_komut_veya_dosya_yolu
-│ │ │ │ │
-│ │ │ │ └───── Haftanın günü (0 - 6) (Pazar = 0 veya 7)
-│ │ │ │ ┌───── Ay (1 - 12)
-│ │ │ ┌─────── Gün (1 - 31)
-│ │ ┌───────── Saat (0 - 23) 
-│ ┌─────────── Dakika (0 - 59)
+# │ │ │ │ │
+# │ │ │ │ └───── Haftanın günü (0 - 6) (Pazar = 0 veya 7)
+# │ │ │ │ ┌───── Ay (1 - 12)
+# │ │ │ ┌─────── Gün (1 - 31)
+# │ │ ┌───────── Saat (0 - 23) 
+# │ ┌─────────── Dakika (0 - 59)
 
 -------------------------------------
 
